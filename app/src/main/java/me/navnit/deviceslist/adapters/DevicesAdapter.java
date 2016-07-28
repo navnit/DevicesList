@@ -17,12 +17,6 @@ import me.navnit.deviceslist.models.Device;
  */
 public class DevicesAdapter extends ArrayAdapter<Device> {
 
-    List<Device> devices;
-
-    public void setDevices(List<Device> devices) {
-        this.devices = devices;
-    }
-
     public DevicesAdapter(Context context, List<Device> devices) {
         super(context, 0, devices);
     }
